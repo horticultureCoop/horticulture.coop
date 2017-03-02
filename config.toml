@@ -21,7 +21,7 @@ googleAnalytics = ""
 	# To provide some metadata for search engines feel free to add some
 	# information about you and your website.
 	name = "Horticulture Cooperative"
-	description = "A cooperative"
+	description = "A cooperative for sustainable development"
 
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
@@ -55,27 +55,27 @@ googleAnalytics = ""
 
 	# Service section
 	[params.services]
-		headline = "At your service"
+		headline = "What makes us special"
 
         [[params.services.list]]
-            icon = "fa-diamond"
-            title = "Sturdy Templates"
-            description = "Our templates are updated regularly so they don't break."
+            icon = "fa-compass"
+            title = "Holistic Development"
+            description = "Successful products are the right solution for a real need."
 
         [[params.services.list]]
-			icon = "fa-paper-plane"
-			title = "Ready to Ship"
-			description = "You can use this theme as is, or you can make changes!"
+			icon = "fa-cogs"
+			title = "Integrated teams"
+			description = "Our development teams integrate multiple disciplines to suit your project."
 
 		[[params.services.list]]
-            icon = "fa-newspaper-o"
-            title = "Up to Date"
-            description = "We update dependencies to keep things fresh."
+            icon = "fa-globe"
+            title = "Focus on Sustainability"
+            description = "We believe that sustainability leads to success."
 
         [[params.services.list]]
             icon = "fa-heart"
-            title = "Made with Love"
-            description = "You have to make your websites with love these days!"
+            title = "Built with Care"
+            description = "Products built with love by artisans who care"
 
 
     # Portfolio modals
