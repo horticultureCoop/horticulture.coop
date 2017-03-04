@@ -1,7 +1,8 @@
 baseurl = "https://horticulture.coop/"
 languageCode = "en-us"
 title = "Horticulture Cooperative"
-theme = "hugo-creative-theme"
+theme = "hugo-agency-theme"
+#theme = "hugo-creative-theme"
 googleAnalytics = ""
 
 [params]
@@ -26,6 +27,10 @@ googleAnalytics = ""
 	# The path must be relative to the static folder
 	favicon = "favicon.ico"
 
+  # agency theme
+	# Link custom assets relative to /static
+  custom_css = ["css/agency/custom.css", "css/fonts/Bebas_Neue.css"]
+  custom_js  = []
 
 	# Navigation
 	[params.navigation]
@@ -40,9 +45,17 @@ googleAnalytics = ""
 
 	# Hero section
 	[params.hero]
+		# creative theme
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
-		slogan     = "Growing things of beauty"
-		subtitle   = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis nesciunt consequatur ut nihil voluptatem fugiat eos eveniet alias in veniam?"
+		slogan = "Growing things of beauty"
+
+		# agency theme
+		# To change the background image of the hero, replace 'header-bg.jpg' in
+		# the 'static/img' folder.
+		title = "Growing things of beauty"
+
+    # common
+		subtitle = "It's nice to meet you"
 		buttonText = "Find out more"
 
 
@@ -55,24 +68,35 @@ googleAnalytics = ""
 
 	# Service section
 	[params.services]
+		# agency theme
+		enable = true
+		title = "Holistic development"
+		subtitle = "Building products that solve real problems"
+
+		# creative theme
 		headline = "What makes us special"
 
-        [[params.services.list]]
-            icon = "fa-compass"
-            title = "Holistic Development"
-            description = "Successful products are the right solution for a real need."
+        # [[params.services.list]]
+				[[params.services.row]]
+				# [[params.services.row.list]]
+        #     icon = "fa-compass"
+        #     title = "Holistic Development"
+        #     description = "Successful products are the right solution for a real need."
 
-        [[params.services.list]]
+        # [[params.services.list]]
+        [[params.services.row.list]]
 			icon = "fa-cogs"
 			title = "Integrated teams"
 			description = "Our development teams integrate multiple disciplines to suit your project."
 
-		[[params.services.list]]
+		# [[params.services.list]]
+		[[params.services.row.list]]
             icon = "fa-globe"
             title = "Focus on Sustainability"
             description = "We believe that sustainability leads to success."
 
-        [[params.services.list]]
+        # [[params.services.list]]
+        [[params.services.row.list]]
             icon = "fa-heart"
             title = "Built with Care"
             description = "Products built with love by artisans who care"

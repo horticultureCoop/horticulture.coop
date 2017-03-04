@@ -1,0 +1,164 @@
+/* Custom CSS for agency theme */
+
+.text-primary {
+  color: #4f8938;
+}
+
+a {
+    color: #4f8938;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #278900;
+}
+
+.btn-primary {
+    border-color: #4f8938;
+    color: #fff;
+    background-color: #4f8938;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    border-color: #4f8938;
+    color: #fff;
+    background-color: #278900;
+}
+
+.btn-primary.disabled,
+.btn-primary[disabled],
+fieldset[disabled] .btn-primary,
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled:active,
+.btn-primary[disabled]:active,
+fieldset[disabled] .btn-primary:active,
+.btn-primary.disabled.active,
+.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active {
+    border-color: #4f8938;
+    background-color: #4f8938;
+}
+
+.btn-primary .badge {
+    color: #4f8938;
+    background-color: #fff;
+}
+
+.btn-xl {
+  border-color: #4f8938;
+  color: #fff;
+  background-color: #4f8938;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active,
+.open .dropdown-toggle.btn-xl {
+    border-color: #4f8938;
+    color: #fff;
+    background-color: #278900;
+}
+
+.btn-xl.disabled,
+.btn-xl[disabled],
+fieldset[disabled] .btn-xl,
+.btn-xl.disabled:hover,
+.btn-xl[disabled]:hover,
+fieldset[disabled] .btn-xl:hover,
+.btn-xl.disabled:focus,
+.btn-xl[disabled]:focus,
+fieldset[disabled] .btn-xl:focus,
+.btn-xl.disabled:active,
+.btn-xl[disabled]:active,
+fieldset[disabled] .btn-xl:active,
+.btn-xl.disabled.active,
+.btn-xl[disabled].active,
+fieldset[disabled] .btn-xl.active {
+    border-color: #4f8938;
+    background-color: #4f8938;
+}
+
+.btn-xl .badge {
+    color: #4f8938;
+    background-color: #fff;
+}
+
+.navbar-default .navbar-brand {
+    font-family: BebasNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #4f8938;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #4f8938;
+  background-color: #4f8938;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:active,
+.navbar-default .navbar-brand.active {
+    color: #278900;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #4f8938;
+}
+
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus {
+    outline: 0;
+    color: #4f8938;
+}
+
+.navbar-default .navbar-nav>.active>a {
+    color: #fff;
+    background-color: #4f8938;
+}
+
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #278900;
+}
+
+.timeline>li .timeline-image {
+    color: #fff;
+    background-color: #4f8938;
+}
+
+section#contact .form-control:focus {
+    border-color: #4f8938;
+    box-shadow: none;
+}
+
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+    background-color: #4f8938;
+}
+
+::-moz-selection {
+    text-shadow: none;
+    background: #4f8938;
+}
+
+::selection {
+    text-shadow: none;
+    background: #4f8938;
+}
+
+body {
+    webkit-tap-highlight-color: #4f8938;
+}
